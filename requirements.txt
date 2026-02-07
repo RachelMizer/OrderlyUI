@@ -1,0 +1,9 @@
+# OrderlyUI requirements
+# (Only include these if you plan to use Python-based tooling)
+
+black
+pillow
+django-taggit
+django-extensions
+djangorestframework
+celery

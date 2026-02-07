@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OrderlyUI – Sitemaps</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .section {
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        pre {
+            background: #f0f0f0;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            line-height: 1.4;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>OrderlyUI Sitemaps</h1>
+        <p>Customer & Admin Interface Structure</p>
+    </header>
+
+    <main>
+
+        <!-- CUSTOMER SITEMAP -->
+        <div class="section">
+            <h2>Customer Sitemap</h2>
+            <pre>
+Customer App
+│
+├── Home / Browse Products
+│   ├── Product Categories
+│   ├── Product Search
+│   └── Product Detail
+│        └── Customize Item
+│
+├── Cart / Order Review
+│   └── Submit Order
+│        └── Order Confirmation
+│
+├── Order Status
+│   └── Order Timeline
+│
+├── Order History
+│   └── Order Detail
+│
+├── Account
+│   ├── Login
+│   ├── Register
+│   ├── Guest Checkout
+│   ├── Reset Password
+│   └── Logout
+│
+└── Help / FAQ
+            </pre>
+        </div>
+
+        <!-- ADMIN SITEMAP -->
+        <div class="section">
+            <h2>Admin Sitemap</h2>
+            <pre>
+Admin App
+│
+├── Dashboard
+│   ├── Key Metrics
+│   ├── Sales Summary
+│   └── Low-Stock Alerts
+│
+├── Products
+│   ├── Product List
+│   ├── Add/Edit Product
+│   ├── Manage Pricing
+│   ├── Manage Categories
+│   └── Bulk Import (CSV)
+│
+├── Inventory
+│   ├── Inventory Levels
+│   └── Inventory Reports
+│
+├── Orders
+│   ├── All Orders
+│   ├── Filter Orders
+│   ├── Order Detail
+│   └── Order Timeline
+│
+├── Suppliers
+│   ├── Supplier List
+│   └── Add/Edit Supplier
+│
+├── Business Settings
+│   ├── Tax Rates
+│   ├── Service Fees
+│   └── General Configuration
+│
+├── System Logs
+│   ├── Activity Log Viewer
+│   └── System Actions
+│
+└── Reports
+    ├── Sales Reports
+    ├── Inventory Reports
+    └── Export Summaries
+            </pre>
+        </div>
+
+    </main>
+</body>
+</html>
